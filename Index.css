@@ -1,0 +1,1143 @@
+/* header */
+/* mise en forme général*/
+.Info{
+    background-color: #232628;
+    
+}
+.Info h2{
+    font-family: Montserrat;
+    color: #CC6119;
+    text-transform: uppercase;
+}
+.Info h1{
+    font-family: Montserrat;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+#Info{
+   flex: 1 0 auto;
+}
+.Info{
+    flex-shrink: 0;
+    width:100%;
+    background: #232628;
+    color: #FFFFFF;
+}
+.Info{
+    width: auto;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start ;
+    font-size: 20px;
+    padding: 20px 0 5px
+}
+.headerHorraire, .headerTelephone, .headerAdresse{
+  width: 20%;
+}
+.headerReseau{
+    width: 15%;
+}
+/*mise en forme du bloc logo*/
+
+
+/* mise en fomre du bloc adresse */
+.headerAdresse p{
+color: #FFFFFF;
+font-family: Montserrat;
+font-weight: 400;
+font-size: medium;
+}
+.headerAdresseForme{
+    display: flex;
+    vertical-align: middle;
+}
+.headerAdresseFormeIcone{
+    padding: 20px;
+    padding-right: 1;
+    margin-right: -5%;
+    height: 50px;
+    width: 60px;
+}
+.headerAdresse{
+    margin: 0;
+}
+
+/*mise en fomre du bloc Téléphone*/
+.headerTelephone{
+    margin:0;
+    text-align: right;
+}
+.headerTelephone p{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: medium;
+    text-transform: uppercase;
+}
+.HeaderTelephoneP{
+    text-align: justify;
+}
+.headerTelephoneForme{
+    display: flex;
+   
+}
+.headerTelephoneFormeIcone{
+    padding: 20px;
+     padding-right: 1;
+     margin-right: -5%;
+     height: 40px;
+     width: 45px;
+} 
+
+
+/*mise en forme du bloc horraire*/
+.headerHorraire{
+    font-family: Montserrat;
+    font-size: medium;
+    margin: 0;
+}
+.headerhorraireP{
+    margin-bottom: 0;
+}
+.headerHorrairePhorraire{
+    margin-top: 5px;
+}
+
+/*mise en forme du bloc Réseau sociaux*/
+.headerReseau{
+    margin-left: 10px;
+    margin-right: 0;
+}
+/* barre de navigation du header */
+.mainNav{
+    background-color:#ECEFF3 ;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    top: 135px;
+}
+ .mainNav a{
+    color:#232628;
+    text-decoration: none;
+    margin-right: 8;
+}
+.mainNav .navLinks ul{ 
+    display:flex;
+}
+.mainNav .navLinks{ 
+    
+    display:flex;
+    align-items: center;
+    margin-right: 200px;
+    font-weight: bolder;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+.mainNav .navLinks ul li{
+    margin: 0 30px;
+}
+.mainNav .active{
+    background-color: #CC6119;
+    color: white;
+   padding: 16px 16px 16px 16px;
+}
+.mainNav .menuToggle{
+    position:absolute;
+    display: flex;
+}
+
+
+#logoFacebook{
+    width: 40px;
+    padding: 10px
+}
+#logoTwitter{
+    width: 40px;
+    padding: 10px
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.toggle{
+   min-width: 6.1ch;
+    margin:-15px;
+}
+
+
+
+/*ici commen ce le body */
+/*premier article*/
+.imgPremierArticle{
+    width: 100%;
+    height: auto;
+}
+.PremierArticle{
+    
+    
+    height: auto;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    
+}
+.LegendePremierArticle{
+    background-color: #232628;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align:center;
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    
+}
+
+/* deuxieme article*/
+.card{
+    font-family: Montserrat;
+    
+}
+.card h2{
+    font-weight: bolder;
+    font-size: 2em;
+    margin-top: 0;
+
+}
+.card ul{
+    padding-left: 0rem;
+    list-style-type: none;
+    padding-top: 15px;
+}
+.card ul li{
+    padding-left: 2rem;;
+    background-image: url(../images/Iconeliste.png);
+    background-position: 0 0;
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+.ParagrapheGrasArticleDeux{
+    font-weight: bolder;
+    line-height: 1.6em;
+}
+.ParagrapheArticleDeux{
+    color: grey;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.pointille{
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 40px;
+    
+}
+.PaddingForme{
+    padding-top: 30px;
+    color: grey;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.DeuxiemeArticleGrid{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    grid-gap: 20px 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(300px,auto);
+    padding-top: 40px;
+    
+}
+.premierImgDeuxiemeArticle{
+width: 100%
+}
+.paragrapheDeuxiemeArticle{
+ text-align: left;
+}
+
+/*troisieme article*/
+#articleAchatLocation{
+    background-image: url(../images/clients.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Location{
+ background-color: #FAB637;
+ margin-top: 25%;
+ margin-bottom: 25%;
+ margin-left:20%
+}
+.Achat{
+    background-color:#FF4848;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-right:20%
+}
+.GRidlocation{
+    font-family: Montserrat;
+    text-align: left;
+    padding: 50px;
+}
+.GRidlocation h2{
+    font-size: 2em;
+}
+.GRidlocation p{
+    color: #FFFFFF;
+}
+.TroisiemeArticle{
+    display: grid;
+    grid-gap: 20px 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(300px,auto);
+    margin-top:5%
+}
+/*ici ce termine le troisième article 
+
+/* ici commence le quatrième article*/
+
+#vehiculeRecent{
+    background-color: #232628;
+}
+#vehiculeRecent h1{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 2%;
+    font-size: 2.5em;
+}
+.GridQuatriemeArticle{
+     display:grid;
+     grid-gap: 5px 25px;
+     grid-template-columns: repeat(3, 3fr);
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-bottom: 2%;
+     padding-top: 1%;
+
+}
+.GridQuatriem p{
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.3em;
+    padding-bottom: 30px;
+    
+}
+.precision{
+    background-color: #3a3f42;
+    padding: 5% 5% 0 8%;
+}
+.GalèreTest5500{
+    display:grid;
+     grid-gap: 16%;
+     grid-template-columns: 60% 30%;
+
+}
+.GalèreTest8000{
+    display:grid;
+     grid-gap: 16%;
+     grid-template-columns: 60% 30%;
+}
+.GalèreTest8200{
+    display:grid;
+     grid-gap: 15%;
+     grid-template-columns: 60% 30%;
+     
+}
+.buttonAchat{
+    background-color: #6C98E1 ;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1.3em;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.detailPrix{
+    font-weight: 400;
+    font-size: 0.75em;
+    text-decoration: line-through;
+    
+}
+.transitionGalère{
+    border: 1px solid #656769;
+    margin-bottom: 30px;
+    margin-top: -5%;
+    
+}
+.transition{
+    border: 2px solid #CC6119;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top: -2%;
+    margin-bottom: 2%;
+}
+/* ici ce fini le quatrième article*/
+/* ici commence le cinquième article*/
+.titreCinquiemeArtcile{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.5em;
+    padding-top: 30px;
+}
+.flotte{
+    margin-right: 0;
+}
+
+.imgdernier{
+    height: auto;
+    width: 60px;
+padding-left: 50px
+}
+.ContainerGridDernier{
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 50px 180px 50px 180px 50px 180px 50px 180px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+.GridDernier{
+    text-align: left;
+    
+}
+.GridDernier p{
+    font-family: Montserrat;
+    color:#454547
+
+}
+.GridDernier h3{
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+
+
+.ContactezNous{
+    text-align: center;
+    display: block;
+    margin: 60px auto 80px;
+    font-size: 15px;
+    font-weight:650;
+    font-family: Montserrat;
+    background-color: #6C98E1;
+    color: #FFFFFF;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+}
+/*dernier article*/
+.dernierArticle{
+    background-color:#FAB637; 
+    border-radius: 0px; 
+    border: none;
+    padding: 30px; 
+    width:400px; 
+    text-align:left;
+    opacity:90%;
+}
+.VenteLocation {
+    
+    background-image: url(../images/vehicule3.jpg) ;
+    background-position: center;
+    background-size: cover;
+    color: #232628;
+    padding-top: 5%;
+    padding-left:10%;
+    padding-bottom: 25%;
+    text-align: center;
+    font-size: 0.7em;
+    font-family: Montserrat;
+    font-style: bold;
+    }
+    .accessibility{
+        display: none;
+    }
+.heading-2{
+ font-size: 3.1em;
+ font-family: Montserrat;
+ text-transform: uppercase;
+ font-weight: 700;
+ margin-bottom: -9px;
+} 
+.heading-3{
+    font-size: 3.1em;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: -8px;
+    color:#FFFFFF
+    ;
+}
+.VenteLoc{
+    text-align:left;
+    font-weight: 500;
+    margin-top: -20px;
+}
+/* fin du dernier article de la page Index */
+
+/* début de la page contact/* 
+/* mise en forme de l'imgae de background*/ 
+main {
+    background-color: #FFFFFF;
+    margin: 150px 100px 80px 150px;
+    padding: 1px 20px 50px 80px;
+    opacity: 1;
+    box-shadow: 1px 1px 10px 1px grey;
+    z-index: 1;
+}
+#pageContent{
+    background-image: url(/images/vehicule4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-color: #ECEFF3;
+}
+.TitreContact{
+text-align: left;
+padding-top: 30px;
+font-family: Montserrat;
+font-size: 2.5em;
+}
+.MiseEnFormFormulaire{
+    border: none;
+    background-color:#e4eef7;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 5px;
+    width: 80%;
+    font-family: Montserrat;
+}
+.gridContainerContact{
+    display: grid;
+    grid-gap: 40px 10px;
+    grid-template-columns: repeat(4,1fr)
+}
+.gridContact{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: medium;
+}
+
+textarea{
+    resize: none;
+    height: 120px;
+    width: 100%;
+    font-family: Montserrat;
+}
+.FromButton{
+    text-align: center;
+    display: block;
+    margin: 30px 50.5% 0px;
+    font-size: 15px;
+    font-weight:650;
+    font-family: Montserrat;
+    background-color: #6C98E1;
+    color: #FFFFFF;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 15px 50px 15px 50px;
+    box-shadow: 0 4px #4e82d6;
+}
+
+
+
+/* fin de la page Contact*/ 
+ 
+/* début de la page Vente */
+.breadcrum{
+    padding-top:3%;
+    margin-left:10%;
+    margin-right:12%;
+    font-family: Montserrat;
+    color: lightgrey;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+.PageContentVente{
+    padding-left: 10%;
+    padding-top:0;
+    padding-right: 30%;
+    font-family: Montserrat;
+}
+.PageContentVente h1{
+    font-size: 2em;
+    padding-bottom: 0;
+    margin-bottom: 1%;
+}
+.listeVente{
+    background-image: url(/images/Iconecheckorange.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+    padding-left: 2rem;
+    margin-top: 15px;
+    
+}
+.ListeVenteContainer{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.premierParaphVente{
+    font-size: large;
+    font-weight: 300;
+}
+.DeuxiemePVente{
+    font-size: medium;
+    font-weight: 400;
+}
+.TroisiemePVente{
+    border-left: 4px solid #CC6119;
+    font-style: italic;
+    font-weight: 100;
+    color: grey;
+    padding-left: 2%;
+    font-size: 1em;
+    margin-top: 2%;
+    margin-bottom:2%
+}
+.QuatrièmePVente{
+    font-size: medium;
+    font-weight: 400;
+}
+.TitreOption{
+    padding-top: 2%;
+    font-weight: 600;
+}
+.NavBar {
+    background-color: #000000;
+    margin-top: 3%; 
+}
+.NavLinksVente {
+    list-style-type: none;
+    padding-left: 5px;
+}
+.NavLinksVente li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+}
+.NavLinksVente li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:white;
+    padding: 15px;   
+}
+.NavBarVenteActive{
+    background-color: #FFFFFF;
+    color: inherit;
+    border-top: 3px solid #CC6119;
+}
+
+
+/* Ici commence le footer */
+body {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+#contenuFooter{
+    flex: 1 0 auto;
+}
+footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #000000;
+    width:100%;
+    background: #232628;
+    color: #FFFFFF;
+}
+.img{
+    width: 40px;
+    
+}
+.ContenuFooter{
+    width: 1200px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start ;
+    font-size: 20px;
+    padding: 50px 0 70px
+}
+/*Bloc généraux*/
+.Bloc{
+    width:25%;
+    margin: 0 30px; 
+}
+/* texte footer 1er bloc et mise en forme des H3 et des pargraphes simple*/
+.texteFooter h3, .horraireFooter h3 , .newsletterFooter h3, .reseauFooter h3{
+    font-size: 20px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+
+.texteFooter p, .horraireFooter p , .newsletterFooter p, .reseauFooter p{
+    font-family: open Sans;
+    color:#A0A0A0;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding: 5px 0;
+}
+/*Bloc réseaux socieaux*/
+.ReseauLienFooter{
+    list-style-type: none;
+
+}
+.ReseauLienFooter li{
+    padding: 5px 10;
+    display: inline;
+
+}
+.ReseauLienFooter a{
+    text-decoration: none;
+}
+.ReseauLienFooter{
+    margin-left: -16%;
+}
+/*bloc newsletter*/
+.IconeWifiFooter{  
+    border:none;
+    width: 40px;
+    height: 42px;
+    cursor: pointer;  
+}
+.NewsletterFooterButton{
+    padding: 6px;
+    margin-bottom: 0%;
+    border-style: none;
+    width: 200px;
+    height: 30px;
+    padding-left: 10%
+}
+.align{
+    display: flex;
+    vertical-align: middle;
+}
+/*bloc horraire*/
+
+.ParagrapheHorraire{
+    margin-bottom: -10%;
+}
+
+/* coppyright */
+.copyright{
+    color: #A0A0A0;
+    font-family: Open Sans;
+    font-size: 0.7em;
+    position: center;
+    text-align: center;
+    border-top: 0.1em solid #A0A0A0;
+}
+
+/* ici ce termine le footer*/
+
+
+
+
+
+
+
+
+
+@media screen and (min-width : 1300px){
+    .menuToggle{
+        display: none
+    }
+    .gridContact:nth-child(3){
+        grid-column-start: 3 ;
+        grid-column-end: 5;
+        grid-row: 1/3;
+    }
+    .HeaderLogo{
+        margin-left: 40px;
+        margin-right: 0;
+        text-align: right;
+        width:25%;
+        margin: 0 30px; 
+    }
+    .logoPrincipal{
+        margin: 1;
+    }
+    .HeaderLogoContactVente{
+        display: none;
+    }
+   
+   
+}
+
+
+@media screen and (max-width : 800px){
+   
+    .ContenuFooter{
+        width: 320px;
+        flex-wrap: wrap;  
+        height: auto;
+        
+    }
+   
+   
+    
+   
+}
+@media screen and (max-width : 1300px){
+    .HeaderLogoContactVente{
+        
+        text-align: right;
+        width:25%;
+        font-size: 1em;
+        margin-left: -2;
+    }
+    .logoPrincipalContactVente{
+        margin: 1;
+    }
+    .ContenuFooter{
+        width: 700px;
+        flex-wrap: wrap;
+        margin-left: -100px;
+       
+    }
+    .Bloc{
+        width: 60%;
+        margin: 0 0;
+    
+    }
+    .ReseauLienFooter{
+        margin-left: -10%;
+    }
+    .ParagrapheHorraire{
+        margin-bottom: 5%;
+    }
+    .headerAdresse {
+        display:none;
+    }
+    .headerHorraire{
+        display:none;
+    }
+    .headerReseau{
+        display: none;
+    }
+    
+    .mainNav{
+        display: none;
+    }
+    #mainHeader{
+        width:100%
+    }
+    .Info{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        justify-content: center;
+        align-items: flex-start ;
+        font-size: 20px;
+        padding: 20px 0 5px
+    }
+    .menuToggle{
+        position: absolute;
+        margin-left: 85%;
+        margin-top:30px;
+    }
+    .headerTelephone{
+        margin:0;
+        text-align: right;
+        
+    }
+    .bloc{
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    /*premier article page Index*/
+    .LegendePremierArticle{
+    text-align:center;
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    }
+    .imgPremierArticle{
+        display:none;
+    } 
+    .PremierArticle{
+        height: auto;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .logoPrincipal{
+        display: none;
+    }
+    /*deuxieme article */
+    .DeuxiemeArticleGrid{
+        padding-left: 40px;
+        padding-right: 40px;
+        grid-gap: 20px 20px;
+        grid-template-columns: repeat(1, 1fr);
+     }
+    .card h2{
+        font-weight: 700;
+        font-size: 1.7em;
+        margin-top: 0;
+    }
+    .ParagrapheGrasArticleDeux{
+        font-weight: 700;
+        font-size: x-large;
+    }
+    .ParagrapheArticleDeux{
+        padding-top: 10px;
+        font-size: 1.2em;
+        line-height: 1.6em;
+    }
+    .PaddingForme{
+    font-size: 1.1em;
+    line-height: 1.6em;
+    font-weight: 500;
+    color: grey;
+    }
+    /*troisieme article*/
+    .TroisiemeArticle{
+        display: grid;
+        grid-gap: 10px 10px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(300px,auto);
+        margin-top:1%
+    }
+    .Location{
+        background-color: #FAB637;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-left:0%
+    }
+    .Achat{
+           background-color:#FF4848;
+           margin-top: 5%;
+           margin-bottom: 20%;
+           margin: 0%;
+           padding-bottom: 5%;
+    }
+    .GRidlocation{
+           font-family: Montserrat;
+           text-align: left;
+           padding: 20px 100px 40px 100px ;
+           line-height: 1.4em;
+           font-size: 1.4em;
+    }
+    .GRidlocation h2{
+        font-size: 2em;
+        line-height: 1.2em;
+        margin-bottom: 0;
+    }
+    /*quatrieme article*/
+    #PremierAchat{
+        display: none;
+    }
+    #deuxiemeAchat{
+        display:none;
+    }
+    #DeuxiemePrix{
+        display: none;
+    }
+    #troisiemePrix{
+        display:none;
+    }
+    .GridQuatriemeArticle{
+        display:grid;
+        grid-gap: 5px 25px;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+        padding-top: 10%;
+   
+   }
+    .GalèreTest5500{
+        display:grid;
+         grid-gap: 1px 1px;
+         grid-template-columns: repeat(1,1fr);
+    }
+    .galèreTestInterieur:nth-child(1){
+        order: 1;
+    }
+    .precision{
+        background-color: #3a3f42;
+        padding: 1% 10% 10% 8%;
+    }
+    .buttonAchat{
+        background-color: #6C98E1 ;
+        color: #FFFFFF;
+        text-align: center;
+        border: none;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 1.3em;
+        padding: 20px 30px 20px 10px;
+        cursor: pointer;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+    .transitionGalère{
+        border: 1px solid #656769;
+        margin-bottom: 0px;
+    }
+    .GridQuatriem p{
+        font-size: 1.5em;
+    }
+    #vehiculeRecent h1{
+        padding-top: 10%;
+        font-size: 3em;
+        line-height: 1.3em;
+    }
+    .transition{
+        margin-left:5%;
+        margin-right: 5%;   
+    }
+    /*cinquieme article*/
+    .ContainerGridDernier{
+        display: grid;
+        grid-gap: 5% 10%;
+        grid-template-columns: 20% 70%;
+        padding-left: 10%;
+        padding-right: 10%;
+    
+    }
+    .imgdernier{
+        height: auto;
+        width: 100%;
+        padding-left: 10px
+    }
+    .titreCinquiemeArtcile{
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 2.5em;
+        padding: 30px 10% 15% 10%;   
+    }
+    .GridDernier p{
+        font-family: Montserrat;
+        color: grey;
+        font-size:1.3em;
+        font-weight: 500;
+    
+    }
+    .GridDernier h3{
+        font-family: Montserrat;
+        font-size: 1.4em;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    .ContactezNous{
+        text-align: center;
+        display: block;
+        margin: 60px auto 80px;
+        font-size: 1.2em;
+        font-weight:650;
+       padding: 15px 60px 15px 60px;
+       margin-top: 250px;
+       border-radius: 3px;
+    
+    }
+    /*dernier article*/
+    .VenteLocation {
+    padding: 5% 0% 10% 0%;
+    } 
+    .dernierArticle{
+        padding: 30px; 
+        width:auto; 
+    }
+    .heading-2{
+       padding-bottom: 2%;
+       padding-left: 5%;
+    } 
+    .heading-3{
+     padding-right: 30%;
+     padding-left: 5%;
+    }
+    .VenteLoc{
+      font-weight: 500;
+      margin-top: -20px;
+      padding-left: 5%;
+      font-size: 1.6em;
+      padding-right: 5%;
+      line-height: 1.4em;
+    }
+    /*fin de la page Index */
+
+    /*debut de la page contact*/
+    .gridContainerContact{
+        grid-gap: 30px 10px;
+        grid-template-columns: 100%
+    }
+   
+    main {
+        margin: 100px 5% 100px 5%;
+        padding: 1px 0 50px 7%;
+    }
+    .FromButton{
+        margin: 30px 50% 0% 0px;
+    }
+    .gridContact:nth-child(3){
+        order: 1;
+    }
+    /* fin de la page contact*/
+    /*debut de la page vehicule / vente*/
+    .ListeVenteContainer{
+        padding-bottom: 15%;
+    }
+    .TroisiemePVente{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-left: 5%;
+    }
+    .PageContentVente{
+      padding-left: 2%;
+      padding-top:5%;
+      padding-right: 2%;
+      width: 100%;
+    }
+    .PageContentVente P{
+        line-height: 1.4em;
+    }
+    .PageContentVente h1{
+        padding-right: 15%;
+    }
+    .NavLinksVente li{
+        display: flex;
+        text-decoration: none;
+        padding: 10px;
+        border-right: 6px solid black;
+        justify-content: center;
+    }
+    .breadcrum{
+        margin-left: 3%;
+    }
+    .NavBar {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    
+    
+   
+    
+  
+}
+@media screen and (max-width : 1300px){
+    
+}
+@media screen and (max-width : 1300px){
+    
+}
